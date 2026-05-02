@@ -2,10 +2,12 @@
   "id": 2031162771,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-02",
+    "date:cessation_upper": "2026-05-02",
     "date:inception_lower": "2026-05-01",
     "date:inception_upper": "2026-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-01",
+    "edtf:cessation": "2026-05-02T04:19:38Z",
+    "edtf:inception": "2026-05-01T23:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.580671,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "VOZ",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528779,
     "sfomuseum:base_flight_id": "20260501-D-VOZ-8573",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17347",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145607027",
+      "swim:gufi": "KO816866mt"
+    },
     "wof:country": "US",
     "wof:created": 1777738566,
     "wof:geomhash": "739cf7062aa24bbf1662c0bae366af8d",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031162771,
     "wof:involves": [
+      1528104575,
       102528779,
       102527513,
       1159285413,
       1947304515,
       1159285485
     ],
-    "wof:lastmodified": 1777738566,
+    "wof:lastmodified": 1777738694,
     "wof:name": "UA287 (SFO-RDU)",
     "wof:parent_id": 1947304515,
     "wof:placetype": "custom",

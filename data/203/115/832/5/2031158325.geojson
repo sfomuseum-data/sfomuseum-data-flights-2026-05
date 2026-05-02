@@ -2,10 +2,12 @@
   "id": 2031158325,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-02",
+    "date:cessation_upper": "2026-05-02",
     "date:inception_lower": "2026-05-01",
     "date:inception_upper": "2026-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-01",
+    "edtf:cessation": "2026-05-01T23:59:43-07:00",
+    "edtf:inception": "2026-05-01T13:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.427454999999995,
     "geom:longitude": -121.5070865,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527351,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N430UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145547286",
+      "swim:gufi": "KL445226LS"
+    },
     "wof:country": "US",
     "wof:created": 1777738047,
     "wof:geomhash": "2af895d7dc7816e28cbc6da81f2a802b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031158325,
     "wof:involves": [
+      1947304483,
+      1159292085,
       102527513,
       102527351,
-      1159285413,
-      1947304483
+      1159285413
     ],
-    "wof:lastmodified": 1777738047,
+    "wof:lastmodified": 1777738669,
     "wof:name": "UA1639 (SBP-SFO)",
     "wof:parent_id": 1947304483,
     "wof:placetype": "custom",

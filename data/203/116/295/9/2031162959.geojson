@@ -2,10 +2,12 @@
   "id": 2031162959,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-02",
+    "date:cessation_upper": "2026-05-02",
     "date:inception_lower": "2026-05-01",
     "date:inception_upper": "2026-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-01",
+    "edtf:cessation": "2026-05-02T07:24:00Z",
+    "edtf:inception": "2026-05-01T07:07:24-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102549057,
     "sfomuseum:base_flight_id": "20260501-D-ACA-4057",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N69020",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145591345",
+      "swim:gufi": "KO707616Se"
+    },
     "wof:country": "US",
     "wof:created": 1777738588,
     "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031162959,
     "wof:involves": [
-      102549057,
-      102527513,
       1159285413,
       1947304463,
-      1159283597
+      1159283597,
+      1159289985,
+      102549057,
+      102527513
     ],
-    "wof:lastmodified": 1777738588,
+    "wof:lastmodified": 1777738684,
     "wof:name": "UA58 (SFO-FRA)",
     "wof:parent_id": 1947304463,
     "wof:placetype": "custom",

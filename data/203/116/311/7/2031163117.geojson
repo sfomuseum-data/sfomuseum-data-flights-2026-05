@@ -2,10 +2,12 @@
   "id": 2031163117,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-02",
+    "date:cessation_upper": "2026-05-02",
     "date:inception_lower": "2026-05-01",
     "date:inception_upper": "2026-05-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-01",
+    "edtf:cessation": "2026-05-02T20:02:42Z",
+    "edtf:inception": "2026-05-01T16:56:26-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 15.374977500000007,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102557775,
     "sfomuseum:base_flight_id": "20260501-D-DLH-8946",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37018",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO092827lr"
+    },
     "wof:country": "US",
     "wof:created": 1777738606,
     "wof:geomhash": "2816398c66be3da27e7024f224ecf0ab",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031163117,
     "wof:involves": [
-      102557775,
       102527513,
       1159285413,
       1947304131,
-      1159286015
+      1159286015,
+      1159289985,
+      102557775
     ],
-    "wof:lastmodified": 1777738606,
+    "wof:lastmodified": 1777738685,
     "wof:name": "UA96 (SFO-BNE)",
     "wof:parent_id": 1947304131,
     "wof:placetype": "custom",
