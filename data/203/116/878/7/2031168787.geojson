@@ -1,0 +1,72 @@
+{
+  "id": 2031168787,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-05-02",
+    "date:inception_upper": "2026-05-02",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-05-02",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2026-05-02",
+    "flysfo:estimated_timestamp": 1777738500,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AS456",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-LIR",
+    "flysfo:scheduled_timestamp": 1777736580,
+    "flysfo:timestamp": 1777738500,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,10.593056,-85.545556,37.617990",
+    "geom:latitude": 24.105522999999998,
+    "geom:longitude": -103.9582495,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102537565,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260502-D-ASA-456",
+    "sfomuseum:flight_number": [
+      "ASA456",
+      "AS456"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1777824679,
+    "wof:geomhash": "616ffa6e449396b97f6247dc82a6219c",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031168787,
+        "flight_id": 2031168787
+      }
+    ],
+    "wof:id": 2031168787,
+    "wof:involves": [
+      102537565,
+      102527513,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1777824679,
+    "wof:name": "AS456 (SFO-LIR)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    10.593056,
+    -85.545556,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-85.545556,10.593056]],"type":"MultiPoint"}
+}
