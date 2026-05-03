@@ -2,10 +2,12 @@
   "id": 2031170419,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-02",
-    "date:inception_upper": "2026-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-02",
+    "date:cessation_lower": "2026-05-03",
+    "date:cessation_upper": "2026-05-03",
+    "date:inception_lower": "2026-05-03",
+    "date:inception_upper": "2026-05-03",
+    "edtf:cessation": "2026-05-03T10:00:00Z",
+    "edtf:inception": "2026-05-03T06:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.9025565,
     "geom:longitude": -104.05767900000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533321,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37534",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO171871KI"
+    },
     "wof:country": "US",
     "wof:created": 1777824871,
     "wof:geomhash": "1b3bbc939bc3a370232933405173139d",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031170419,
     "wof:involves": [
+      1528104577,
       102533321,
       102527513,
       1159285413,
       1947304617
     ],
-    "wof:lastmodified": 1777824871,
+    "wof:lastmodified": 1777824996,
     "wof:name": "UA1127 (SFO-SDF)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

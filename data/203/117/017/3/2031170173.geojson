@@ -2,10 +2,12 @@
   "id": 2031170173,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-02",
+    "date:cessation_upper": "2026-05-02",
     "date:inception_lower": "2026-05-02",
     "date:inception_upper": "2026-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-02",
+    "edtf:cessation": "2026-05-02T13:10:00Z",
+    "edtf:inception": "2026-05-02T12:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-05-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N7734H",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145632779",
+      "swim:gufi": "KO348137Ab"
+    },
     "wof:country": "US",
     "wof:created": 1777824842,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031170173,
     "wof:involves": [
+      1159289869,
       102527209,
       102527513,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1777824842,
+    "wof:lastmodified": 1777824995,
     "wof:name": "WN4213 (SFO-LAS)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

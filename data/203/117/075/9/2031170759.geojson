@@ -2,10 +2,12 @@
   "id": 2031170759,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-03",
+    "date:cessation_upper": "2026-05-03",
     "date:inception_lower": "2026-05-02",
     "date:inception_upper": "2026-05-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-02",
+    "edtf:cessation": "2026-05-03T02:48:00Z",
+    "edtf:inception": "2026-05-02T09:59:51-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20260502-D-ACA-3243",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N822UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145690971",
+      "swim:gufi": "KO816697bw"
+    },
     "wof:country": "US",
     "wof:created": 1777824910,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304455,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1777824910,
+    "wof:lastmodified": 1777825000,
     "wof:name": "UA439 (SFO-AUS)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",
