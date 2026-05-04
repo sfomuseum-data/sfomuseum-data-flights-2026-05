@@ -2,10 +2,12 @@
   "id": 2031179359,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-04",
+    "date:cessation_upper": "2026-05-04",
     "date:inception_lower": "2026-05-03",
     "date:inception_upper": "2026-05-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-03",
+    "edtf:cessation": "2026-05-04T02:32:00Z",
+    "edtf:inception": "2026-05-03T22:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8087165,
     "geom:longitude": -102.62808,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532255,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N837UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145755300",
+      "swim:gufi": "KO732441Mn"
+    },
     "wof:country": "US",
     "wof:created": 1777911415,
     "wof:geomhash": "b3e3651b522d461c555c2feff400782a",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031179359,
     "wof:involves": [
-      102532255,
       102527513,
       1159285413,
-      1947304617
+      1947304617,
+      1159289407,
+      102532255
     ],
-    "wof:lastmodified": 1777911415,
+    "wof:lastmodified": 1777911532,
     "wof:name": "UA433 (SFO-CMH)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031174463,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-03",
+    "date:cessation_upper": "2026-05-03",
     "date:inception_lower": "2026-05-03",
     "date:inception_upper": "2026-05-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-03",
+    "edtf:cessation": "2026-05-03T17:01:00Z",
+    "edtf:inception": "2026-05-03T16:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-05-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1746879083,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N205WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145726351",
+      "swim:gufi": "KL459611S6"
+    },
     "wof:country": "US",
     "wof:created": 1777910834,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -86,9 +99,10 @@
       102527513,
       1746879083,
       1159285591,
-      1947304599
+      1947304599,
+      1159289869
     ],
-    "wof:lastmodified": 1777910834,
+    "wof:lastmodified": 1777911520,
     "wof:name": "WN2546 (BUR-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

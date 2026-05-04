@@ -2,10 +2,12 @@
   "id": 2031174939,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-03",
-    "date:inception_upper": "2026-05-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-03",
+    "date:cessation_lower": "2026-05-04",
+    "date:cessation_upper": "2026-05-04",
+    "date:inception_lower": "2026-05-04",
+    "date:inception_upper": "2026-05-04",
+    "edtf:cessation": "2026-05-03T17:16:00-07:00",
+    "edtf:inception": "2026-05-04T03:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "UA",
+    "icao:aircraft": "A21N",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531023,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N14557",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KG073022CS"
+    },
     "wof:country": "US",
     "wof:created": 1777910892,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031174939,
     "wof:involves": [
+      1377564297,
       102527513,
       102531023,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1777910892,
+    "wof:lastmodified": 1777911522,
     "wof:name": "UA2106 (MIA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

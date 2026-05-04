@@ -2,10 +2,12 @@
   "id": 2031179511,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-04",
+    "date:cessation_upper": "2026-05-04",
     "date:inception_lower": "2026-05-03",
     "date:inception_upper": "2026-05-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-03",
+    "edtf:cessation": "2026-05-04T01:44:00Z",
+    "edtf:inception": "2026-05-03T10:34:58-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533591,
     "sfomuseum:base_flight_id": "20260503-D-ACA-4107",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N897UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO825861Hi"
+    },
     "wof:country": "US",
     "wof:created": 1777911433,
     "wof:geomhash": "e84c3ec216fbaf9440bbf99d412a1253",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031179511,
     "wof:involves": [
+      1947304617,
+      1159283597,
+      1159289407,
       102533591,
       102527513,
-      1159285413,
-      1947304617,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1777911433,
+    "wof:lastmodified": 1777911539,
     "wof:name": "UA581 (SFO-PSP)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",
