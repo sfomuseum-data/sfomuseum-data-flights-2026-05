@@ -2,10 +2,12 @@
   "id": 2031187909,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-04",
+    "date:cessation_upper": "2026-05-04",
     "date:inception_lower": "2026-05-04",
     "date:inception_upper": "2026-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-04",
+    "edtf:cessation": "2026-05-04T19:32:00Z",
+    "edtf:inception": "2026-05-04T18:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N445UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145879619",
+      "swim:gufi": "KO637472eF"
+    },
     "wof:country": "US",
     "wof:created": 1777997836,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031187909,
     "wof:involves": [
-      102525535,
       102527513,
       1159285413,
-      1947304491
+      1947304491,
+      1159292085,
+      102525535
     ],
-    "wof:lastmodified": 1777997836,
+    "wof:lastmodified": 1777997963,
     "wof:name": "UA3937 (SFO-RNO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

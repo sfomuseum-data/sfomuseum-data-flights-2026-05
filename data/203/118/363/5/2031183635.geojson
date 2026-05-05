@@ -2,10 +2,12 @@
   "id": 2031183635,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-04",
-    "date:inception_upper": "2026-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-04",
+    "date:cessation_lower": "2026-05-04",
+    "date:cessation_upper": "2026-05-04",
+    "date:inception_lower": "2026-05-05",
+    "date:inception_upper": "2026-05-05",
+    "edtf:cessation": "2026-05-04T13:57:46-07:00",
+    "edtf:inception": "2026-05-05T02:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260504-A-AVA-2010",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N438UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL045703Nh"
+    },
     "wof:country": "US",
     "wof:created": 1777997321,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031183635,
     "wof:involves": [
-      102527513,
-      102533795,
       1159285413,
       1947304619,
-      1159285749
+      1159285749,
+      1159292085,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1777997321,
+    "wof:lastmodified": 1777997951,
     "wof:name": "UA2681 (LAX-SFO)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031183505,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-04",
+    "date:cessation_upper": "2026-05-04",
     "date:inception_lower": "2026-05-04",
     "date:inception_upper": "2026-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-04",
+    "edtf:cessation": "2026-05-04T23:49:00Z",
+    "edtf:inception": "2026-05-04T22:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260504-A-AVA-2154",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N66897",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145843290",
+      "swim:gufi": "KL786732cO"
+    },
     "wof:country": "US",
     "wof:created": 1777997305,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +105,10 @@
       102533795,
       1159285413,
       1947304517,
-      1159285749
+      1159285749,
+      1377564285
     ],
-    "wof:lastmodified": 1777997305,
+    "wof:lastmodified": 1777997950,
     "wof:name": "UA2019 (LAX-SFO)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",

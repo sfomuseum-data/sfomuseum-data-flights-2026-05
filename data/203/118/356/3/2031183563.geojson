@@ -2,10 +2,12 @@
   "id": 2031183563,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-04",
+    "date:cessation_upper": "2026-05-04",
     "date:inception_lower": "2026-05-04",
     "date:inception_upper": "2026-05-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-04",
+    "edtf:cessation": "2026-05-04T23:38:00Z",
+    "edtf:inception": "2026-05-04T22:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260504-A-ACA-4415",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N834UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145836138",
+      "swim:gufi": "KO734422Gp"
+    },
     "wof:country": "US",
     "wof:created": 1777997312,
     "wof:geomhash": "a4d4dc469296ca0f5ad383dc766835b1",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031183563,
     "wof:involves": [
-      102527513,
       102525535,
       1159285413,
       1947304607,
-      1159283597
+      1159283597,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1777997312,
+    "wof:lastmodified": 1777997950,
     "wof:name": "UA2279 (RNO-SFO)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",
