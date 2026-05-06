@@ -2,10 +2,12 @@
   "id": 2031192209,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-05",
+    "date:cessation_upper": "2026-05-05",
     "date:inception_lower": "2026-05-05",
     "date:inception_upper": "2026-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-05",
+    "edtf:cessation": "2026-05-05T05:15:31-07:00",
+    "edtf:inception": "2026-05-05T15:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N881UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "145876509",
+      "swim:gufi": "KP456673IL"
+    },
     "wof:country": "US",
     "wof:created": 1778083714,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031192209,
     "wof:involves": [
+      1159289407,
       102527513,
       102531131,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1778083714,
+    "wof:lastmodified": 1778084257,
     "wof:name": "UA8194 (MSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

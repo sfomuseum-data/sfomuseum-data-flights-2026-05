@@ -2,10 +2,12 @@
   "id": 2031194395,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-06",
+    "date:cessation_upper": "2026-05-06",
     "date:inception_lower": "2026-05-05",
     "date:inception_upper": "2026-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-05",
+    "edtf:cessation": "2026-05-06T08:40:30Z",
+    "edtf:inception": "2026-05-05T08:21:20-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "LH",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "LH",
     "iata:base_airline": "",
+    "icao:aircraft": "B744",
     "icao:airline": "DLH",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289915,
     "sfomuseum:airline_id": 1159286015,
     "sfomuseum:arrival_id": 102549057,
     "sfomuseum:base_flight_id": "20260505-D-ANZ-4221",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "DABVX",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145918787"
+    },
     "wof:country": "US",
     "wof:created": 1778083975,
     "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031194395,
     "wof:involves": [
-      102549057,
-      102527513,
       1159286015,
       1947304151,
-      1159283697
+      1159283697,
+      1159289915,
+      102549057,
+      102527513
     ],
-    "wof:lastmodified": 1778083975,
+    "wof:lastmodified": 1778084247,
     "wof:name": "LH455 (SFO-FRA)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

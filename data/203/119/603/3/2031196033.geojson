@@ -2,10 +2,12 @@
   "id": 2031196033,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-06",
+    "date:cessation_upper": "2026-05-06",
     "date:inception_lower": "2026-05-05",
     "date:inception_upper": "2026-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-05",
+    "edtf:cessation": "2026-05-06T01:46:35Z",
+    "edtf:inception": "2026-05-05T07:35:56-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N26902",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "145909347",
+      "swim:gufi": "KO696623zd"
+    },
     "wof:country": "US",
     "wof:created": 1778084169,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031196033,
     "wof:involves": [
+      1159289995,
       102528817,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1778084169,
+    "wof:lastmodified": 1778084252,
     "wof:name": "UA8191 (SFO-IAD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

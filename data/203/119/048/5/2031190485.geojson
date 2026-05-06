@@ -2,10 +2,12 @@
   "id": 2031190485,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-05",
-    "date:inception_upper": "2026-05-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-05",
+    "date:cessation_lower": "2026-05-06",
+    "date:cessation_upper": "2026-05-06",
+    "date:inception_lower": "2026-05-06",
+    "date:inception_upper": "2026-05-06",
+    "edtf:cessation": "2026-05-05T17:07:41-07:00",
+    "edtf:inception": "2026-05-06T00:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260505-A-KLM-7795",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N607DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KB861603LU"
+    },
     "wof:country": "US",
     "wof:created": 1778083503,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031190485,
     "wof:involves": [
+      1377564297,
       102527513,
       102530741,
       1159284261,
       1763588251,
       1159284613
     ],
-    "wof:lastmodified": 1778083503,
+    "wof:lastmodified": 1778084236,
     "wof:name": "DL2919 (BOS-SFO)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",
