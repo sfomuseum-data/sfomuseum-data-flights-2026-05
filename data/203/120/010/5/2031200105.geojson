@@ -2,10 +2,12 @@
   "id": 2031200105,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-06",
-    "date:inception_upper": "2026-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-06",
+    "date:cessation_lower": "2026-05-06",
+    "date:cessation_upper": "2026-05-06",
+    "date:inception_lower": "2026-05-07",
+    "date:inception_upper": "2026-05-07",
+    "edtf:cessation": "2026-05-06T16:09:42-07:00",
+    "edtf:inception": "2026-05-07T04:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260506-A-CMP-2329",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N38268",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS127445Ox"
+    },
     "wof:country": "US",
     "wof:created": 1778170135,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031200105,
     "wof:involves": [
+      1159289871,
       102527513,
       102533269,
       1159285413,
       1947304525,
       1159284211
     ],
-    "wof:lastmodified": 1778170135,
+    "wof:lastmodified": 1778170695,
     "wof:name": "UA737 (SEA-SFO)",
     "wof:parent_id": 1947304525,
     "wof:placetype": "custom",

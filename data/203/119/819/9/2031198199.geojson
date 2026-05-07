@@ -2,10 +2,12 @@
   "id": 2031198199,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-06",
+    "date:cessation_upper": "2026-05-06",
     "date:inception_lower": "2026-05-06",
     "date:inception_upper": "2026-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-06",
+    "edtf:cessation": "2026-05-06T16:47:00Z",
+    "edtf:inception": "2026-05-06T06:47:34Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CA",
     "flysfo:date": "2026-05-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8432295,
     "geom:longitude": -2.892393999999996,
     "iata:airline": "CA",
+    "icao:aircraft": "B77W",
     "icao:airline": "CCA",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283605,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102550367,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "146043633"
+    },
     "wof:country": "US",
     "wof:created": 1778169899,
     "wof:geomhash": "96cbe57d72475858a8ed1d7cff76fcd0",
@@ -83,12 +93,13 @@
     ],
     "wof:id": 2031198199,
     "wof:involves": [
+      1159289993,
       102527513,
       102550367,
       1159283605,
       1947304151
     ],
-    "wof:lastmodified": 1778169899,
+    "wof:lastmodified": 1778170704,
     "wof:name": "CA985 (PEK-SFO)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

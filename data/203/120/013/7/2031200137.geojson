@@ -2,10 +2,12 @@
   "id": 2031200137,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-06",
+    "date:cessation_upper": "2026-05-06",
     "date:inception_lower": "2026-05-06",
     "date:inception_upper": "2026-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-06",
+    "edtf:cessation": "2026-05-06T01:25:34-07:00",
+    "edtf:inception": "2026-05-06T11:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260506-A-ACA-5403",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N846UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145947919",
+      "swim:gufi": "KL503904Le"
+    },
     "wof:country": "US",
     "wof:created": 1778170138,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -92,9 +106,10 @@
       102536579,
       1159285413,
       1947304147,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1778170138,
+    "wof:lastmodified": 1778170695,
     "wof:name": "UA822 (MEX-SFO)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",

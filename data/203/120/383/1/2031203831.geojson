@@ -2,10 +2,12 @@
   "id": 2031203831,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-07",
+    "date:cessation_upper": "2026-05-07",
     "date:inception_lower": "2026-05-06",
     "date:inception_upper": "2026-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-06",
+    "edtf:cessation": "2026-05-07T01:23:00Z",
+    "edtf:inception": "2026-05-06T23:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.618578,
     "lbl:longitude": -122.385434,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20260506-D-CCA-7336",
@@ -53,6 +57,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "146007145"
+    },
     "wof:country": "US",
     "wof:created": 1778170583,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 2031203831,
     "wof:involves": [
-      102533269,
-      102527513,
       1159285413,
       1947304495,
-      1159283605
+      1159283605,
+      1159289869,
+      102533269,
+      102527513
     ],
-    "wof:lastmodified": 1778170583,
+    "wof:lastmodified": 1778170722,
     "wof:name": "UA2279 (SFO-SEA)",
     "wof:parent_id": 1947304495,
     "wof:placetype": "custom",

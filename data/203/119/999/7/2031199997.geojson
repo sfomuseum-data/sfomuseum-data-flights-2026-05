@@ -2,10 +2,12 @@
   "id": 2031199997,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-06",
-    "date:inception_upper": "2026-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-06",
+    "date:cessation_lower": "2026-05-06",
+    "date:cessation_upper": "2026-05-06",
+    "date:inception_lower": "2026-05-07",
+    "date:inception_upper": "2026-05-07",
+    "edtf:cessation": "2026-05-06T13:32:37-07:00",
+    "edtf:inception": "2026-05-07T00:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260506-A-ANZ-9438",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N461UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KP789664mZ"
+    },
     "wof:country": "US",
     "wof:created": 1778170121,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031199997,
     "wof:involves": [
+      1947304603,
+      1159283697,
+      1159292085,
       102527513,
       102531131,
-      1159285413,
-      1947304603,
-      1159283697
+      1159285413
     ],
-    "wof:lastmodified": 1778170121,
+    "wof:lastmodified": 1778170721,
     "wof:name": "UA552 (MSP-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

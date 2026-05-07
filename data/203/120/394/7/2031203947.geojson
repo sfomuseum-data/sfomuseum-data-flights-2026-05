@@ -2,10 +2,12 @@
   "id": 2031203947,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-07",
+    "date:cessation_upper": "2026-05-07",
     "date:inception_lower": "2026-05-06",
     "date:inception_upper": "2026-05-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-06",
+    "edtf:cessation": "2026-05-07T10:49:00Z",
+    "edtf:inception": "2026-05-06T06:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:base_flight_id": "20260506-D-ACA-4067",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145940582"
+    },
     "wof:country": "US",
     "wof:created": 1778170597,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031203947,
     "wof:involves": [
-      102555091,
-      102527513,
       1159285413,
       1947304619,
-      1159283597
+      1159283597,
+      1528104575,
+      102555091,
+      102527513
     ],
-    "wof:lastmodified": 1778170597,
+    "wof:lastmodified": 1778170723,
     "wof:name": "UA436 (SFO-YYZ)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",
