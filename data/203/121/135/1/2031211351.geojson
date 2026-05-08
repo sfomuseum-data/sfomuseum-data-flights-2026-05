@@ -1,0 +1,72 @@
+{
+  "id": 2031211351,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-05-07",
+    "date:inception_upper": "2026-05-07",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-05-07",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "IB",
+    "flysfo:date": "2026-05-07",
+    "flysfo:estimated_timestamp": 1778217600,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "IB356R",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-MAD",
+    "flysfo:scheduled_timestamp": 1778221200,
+    "flysfo:timestamp": 1778221200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-3.562012,40.477078",
+    "geom:latitude": 39.047534,
+    "geom:longitude": -62.966477499999996,
+    "iata:airline": "IB",
+    "icao:airline": "IBE",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284511,
+    "sfomuseum:arrival_id": 102545773,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260507-D-IBE-356R",
+    "sfomuseum:flight_number": [
+      "IBE356R",
+      "IB356R"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1778256894,
+    "wof:geomhash": "6af9ffc3b522178d45af0dec8d95c767",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031211351,
+        "flight_id": 2031211351
+      }
+    ],
+    "wof:id": 2031211351,
+    "wof:involves": [
+      102545773,
+      102527513,
+      1159284511,
+      -1
+    ],
+    "wof:lastmodified": 1778256894,
+    "wof:name": "IB356R (SFO-MAD)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -3.562012,
+    40.477078
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-3.562012,40.477078]],"type":"MultiPoint"}
+}
