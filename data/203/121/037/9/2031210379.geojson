@@ -2,10 +2,12 @@
   "id": 2031210379,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-07",
+    "date:cessation_upper": "2026-05-07",
     "date:inception_lower": "2026-05-07",
     "date:inception_upper": "2026-05-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-07",
+    "edtf:cessation": "2026-05-07T18:37:04Z",
+    "edtf:inception": "2026-05-07T15:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "QFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536481,
     "sfomuseum:base_flight_id": "20260507-D-QFA-3708",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N921AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "146049070",
+      "swim:gufi": "KO5167557i"
+    },
     "wof:country": "US",
     "wof:created": 1778256780,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031210379,
     "wof:involves": [
+      1528104577,
       102536481,
       102527513,
       1159283813,
       1947304293,
       1159285043
     ],
-    "wof:lastmodified": 1778256780,
+    "wof:lastmodified": 1778257148,
     "wof:name": "AS268 (SFO-PVR)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",
