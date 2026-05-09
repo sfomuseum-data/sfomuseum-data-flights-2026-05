@@ -2,10 +2,12 @@
   "id": 2031221099,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-08",
+    "date:cessation_upper": "2026-05-08",
     "date:inception_lower": "2026-05-08",
     "date:inception_upper": "2026-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-08",
+    "edtf:cessation": "2026-05-08T07:13:00Z",
+    "edtf:inception": "2026-05-08T06:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260508-D-CMP-1071",
@@ -53,6 +57,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "146111065"
+    },
     "wof:country": "US",
     "wof:created": 1778343409,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -92,9 +99,10 @@
       102527513,
       1159285413,
       1947304607,
-      1159284211
+      1159284211,
+      1159292085
     ],
-    "wof:lastmodified": 1778343409,
+    "wof:lastmodified": 1778343535,
     "wof:name": "UA2179 (SFO-LAX)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",

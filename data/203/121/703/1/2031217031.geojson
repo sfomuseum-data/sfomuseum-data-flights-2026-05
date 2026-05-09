@@ -2,10 +2,12 @@
   "id": 2031217031,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-08",
+    "date:cessation_upper": "2026-05-08",
     "date:inception_lower": "2026-05-08",
     "date:inception_upper": "2026-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-08",
+    "edtf:cessation": "2026-05-08T12:16:52-07:00",
+    "edtf:inception": "2026-05-08T14:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -55.0628825,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B773",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1528104579,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260508-A-ACA-4737",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2250U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "146130472"
+    },
     "wof:country": "US",
     "wof:created": 1778342930,
     "wof:geomhash": "83e3cf2d6d5d57bb8b348faf86770f57",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 2031217031,
     "wof:involves": [
+      1528104579,
       102527513,
       102547941,
       1159285413,
       1947304151,
       1159283597
     ],
-    "wof:lastmodified": 1778342930,
+    "wof:lastmodified": 1778343554,
     "wof:name": "UA506 (FCO-SFO)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

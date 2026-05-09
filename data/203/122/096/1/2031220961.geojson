@@ -2,10 +2,12 @@
   "id": 2031220961,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-08",
+    "date:cessation_upper": "2026-05-08",
     "date:inception_lower": "2026-05-08",
     "date:inception_upper": "2026-05-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-08",
+    "edtf:cessation": "2026-05-08T21:17:00Z",
+    "edtf:inception": "2026-05-08T04:30:20-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20260508-D-ACA-4029",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37456",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "146154352"
+    },
     "wof:country": "US",
     "wof:created": 1778343393,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -92,9 +104,10 @@
       102527513,
       1159285413,
       1947304607,
-      1159283597
+      1159283597,
+      1377564285
     ],
-    "wof:lastmodified": 1778343393,
+    "wof:lastmodified": 1778343534,
     "wof:name": "UA1639 (SFO-AUS)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",
