@@ -1,0 +1,72 @@
+{
+  "id": 2031225171,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-05-09",
+    "date:inception_upper": "2026-05-09",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-05-09",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2026-05-09",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA222",
+    "flysfo:gate": "",
+    "flysfo:journey": "OGG-SFO",
+    "flysfo:scheduled_timestamp": 1778386260,
+    "flysfo:timestamp": 1778386260,
+    "geom:area": 0,
+    "geom:bbox": "-156.437877,20.894952,-122.370943,37.617990",
+    "geom:latitude": 29.256470999999998,
+    "geom:longitude": -139.40440999999998,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102532929,
+    "sfomuseum:flight_id": "20260509-A-UAL-222",
+    "sfomuseum:flight_number": [
+      "UAL222",
+      "UA222"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1778429276,
+    "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031225171,
+        "flight_id": 2031225171
+      }
+    ],
+    "wof:id": 2031225171,
+    "wof:involves": [
+      102527513,
+      102532929,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1778429276,
+    "wof:name": "UA222 (OGG-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -156.437877,
+    20.894952,
+    -122.370943,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-156.437877,20.894952],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
