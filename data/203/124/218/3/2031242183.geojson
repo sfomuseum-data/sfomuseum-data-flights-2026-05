@@ -1,0 +1,72 @@
+{
+  "id": 2031242183,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-05-11",
+    "date:inception_upper": "2026-05-11",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-05-11",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2026-05-11",
+    "flysfo:estimated_timestamp": 1778485080,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3026",
+    "flysfo:gate": "",
+    "flysfo:journey": "KOA-SFO",
+    "flysfo:scheduled_timestamp": 1778485080,
+    "flysfo:timestamp": 1778485080,
+    "geom:area": 0,
+    "geom:bbox": "-156.035060,19.732444,-122.370943,37.617990",
+    "geom:latitude": 28.675217,
+    "geom:longitude": -139.2030015,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102532939,
+    "sfomuseum:flight_id": "20260511-A-UAL-3026",
+    "sfomuseum:flight_number": [
+      "UAL3026",
+      "UA3026"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1778602113,
+    "wof:geomhash": "d5ad4a83d3d679d1b3fe86e419b08d84",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031242183,
+        "flight_id": 2031242183
+      }
+    ],
+    "wof:id": 2031242183,
+    "wof:involves": [
+      102527513,
+      102532939,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1778602113,
+    "wof:name": "UA3026 (KOA-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -156.03506,
+    19.732444,
+    -122.370943,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-156.03506,19.732444],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
