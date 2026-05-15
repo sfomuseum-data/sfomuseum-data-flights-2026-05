@@ -1,0 +1,72 @@
+{
+  "id": 2031267847,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-05-14",
+    "date:inception_upper": "2026-05-14",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-05-14",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AA",
+    "flysfo:date": "2026-05-14",
+    "flysfo:estimated_timestamp": 1778778000,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AA276R",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-JFK",
+    "flysfo:scheduled_timestamp": 1778745600,
+    "flysfo:timestamp": 1778778000,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-73.787845,40.643286",
+    "geom:latitude": 39.130638000000005,
+    "geom:longitude": -98.07939400000001,
+    "iata:airline": "AA",
+    "icao:airline": "AAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283849,
+    "sfomuseum:arrival_id": 102534365,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260514-D-AAL-276R",
+    "sfomuseum:flight_number": [
+      "AAL276R",
+      "AA276R"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1778861450,
+    "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031267847,
+        "flight_id": 2031267847
+      }
+    ],
+    "wof:id": 2031267847,
+    "wof:involves": [
+      102534365,
+      102527513,
+      1159283849,
+      -1
+    ],
+    "wof:lastmodified": 1778861450,
+    "wof:name": "AA276R (SFO-JFK)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -73.787845,
+    40.643286
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-73.787845,40.643286]],"type":"MultiPoint"}
+}
