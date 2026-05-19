@@ -2,10 +2,12 @@
   "id": 2031300777,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-18",
+    "date:cessation_upper": "2026-05-18",
     "date:inception_lower": "2026-05-18",
     "date:inception_upper": "2026-05-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-18",
+    "edtf:cessation": "2026-05-18T23:31:00Z",
+    "edtf:inception": "2026-05-18T22:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.9389005,
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530507,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N879UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "146999256",
+      "swim:gufi": "KS760062Ec"
+    },
     "wof:country": "US",
     "wof:created": 1779206920,
     "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031300777,
     "wof:involves": [
-      102527513,
       102530507,
       1159285413,
-      1947304513
+      1947304513,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1779206920,
+    "wof:lastmodified": 1779207552,
     "wof:name": "UA2262 (RDM-SFO)",
     "wof:parent_id": 1947304513,
     "wof:placetype": "custom",
