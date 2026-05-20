@@ -2,10 +2,12 @@
   "id": 2031313463,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
     "date:inception_lower": "2026-05-19",
     "date:inception_upper": "2026-05-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-19",
+    "edtf:cessation": "2026-05-20T10:50:02Z",
+    "edtf:inception": "2026-05-19T07:29:07-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 26.067878999999998,
     "geom:longitude": -0.6778954999999982,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102553219,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2135U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147076602",
+      "swim:gufi": "KO630583c5"
+    },
     "wof:country": "US",
     "wof:created": 1779293813,
     "wof:geomhash": "d86898d5d90d953f6630362144c30ee0",
@@ -86,9 +100,10 @@
       102553219,
       102527513,
       1159285413,
-      1947304151
+      1947304151,
+      1159289993
     ],
-    "wof:lastmodified": 1779293813,
+    "wof:lastmodified": 1779293908,
     "wof:name": "UA809 (SFO-MNL)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

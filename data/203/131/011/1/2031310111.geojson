@@ -2,10 +2,12 @@
   "id": 2031310111,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
     "date:inception_lower": "2026-05-19",
     "date:inception_upper": "2026-05-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-19",
+    "edtf:cessation": "2026-05-20T11:07:00Z",
+    "edtf:inception": "2026-05-19T16:01:14-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "QFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:base_flight_id": "20260519-D-QFA-4559",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N321VH",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147024952",
+      "swim:gufi": "KO162374DJ"
+    },
     "wof:country": "US",
     "wof:created": 1779293417,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031310111,
     "wof:involves": [
+      1947304283,
+      1159285043,
+      1528104575,
       102531023,
       102527513,
-      1159283849,
-      1947304283,
-      1159285043
+      1159283849
     ],
-    "wof:lastmodified": 1779293417,
+    "wof:lastmodified": 1779293887,
     "wof:name": "AA2799 (SFO-MIA)",
     "wof:parent_id": 1947304283,
     "wof:placetype": "custom",

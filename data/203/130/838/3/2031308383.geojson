@@ -2,10 +2,12 @@
   "id": 2031308383,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-19",
-    "date:inception_upper": "2026-05-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-19",
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
+    "date:inception_lower": "2026-05-20",
+    "date:inception_upper": "2026-05-20",
+    "edtf:cessation": "2026-05-19T18:34:45-07:00",
+    "edtf:inception": "2026-05-20T02:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260519-A-BAW-8383",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N980JT",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147072804",
+      "swim:gufi": "KN863203xF"
+    },
     "wof:country": "US",
     "wof:created": 1779293209,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -92,9 +106,10 @@
       102534365,
       1159284583,
       1947304273,
-      1159284021
+      1159284021,
+      1159289411
     ],
-    "wof:lastmodified": 1779293209,
+    "wof:lastmodified": 1779293900,
     "wof:name": "B6615 (JFK-SFO)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",
