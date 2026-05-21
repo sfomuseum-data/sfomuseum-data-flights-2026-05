@@ -2,10 +2,12 @@
   "id": 2031317437,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
     "date:inception_lower": "2026-05-20",
     "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "edtf:cessation": "2026-05-20T08:02:34-07:00",
+    "edtf:inception": "2026-05-20T17:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N658UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147154932",
+      "swim:gufi": "KG582774TL"
+    },
     "wof:country": "US",
     "wof:created": 1779379748,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031317437,
     "wof:involves": [
+      1159289965,
       102527513,
       102533631,
       1159285413,
       1947304455
     ],
-    "wof:lastmodified": 1779379748,
+    "wof:lastmodified": 1779380381,
     "wof:name": "UA3919 (ORD-SFO)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

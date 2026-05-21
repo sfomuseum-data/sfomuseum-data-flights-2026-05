@@ -2,10 +2,12 @@
   "id": 2031321251,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
     "date:inception_lower": "2026-05-20",
     "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "edtf:cessation": "2026-05-20T23:04:00Z",
+    "edtf:inception": "2026-05-20T19:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20260520-D-ACA-5384",
@@ -53,6 +57,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147150180"
+    },
     "wof:country": "US",
     "wof:created": 1779380207,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 2031321251,
     "wof:involves": [
+      1159289945,
       102533631,
       102527513,
       1159285413,
       1947304491,
       1159283597
     ],
-    "wof:lastmodified": 1779380207,
+    "wof:lastmodified": 1779380365,
     "wof:name": "UA1394 (SFO-ORD)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

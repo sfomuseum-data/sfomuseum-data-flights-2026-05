@@ -2,10 +2,12 @@
   "id": 2031320067,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-21",
+    "date:cessation_upper": "2026-05-21",
     "date:inception_lower": "2026-05-20",
     "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "edtf:cessation": "2026-05-21T04:26:00Z",
+    "edtf:inception": "2026-05-20T13:13:57-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N664DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO060615Fj"
+    },
     "wof:country": "US",
     "wof:created": 1779380065,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031320067,
     "wof:involves": [
+      1159289939,
       102528997,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1779380065,
+    "wof:lastmodified": 1779380357,
     "wof:name": "DL8845 (SFO-SAN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

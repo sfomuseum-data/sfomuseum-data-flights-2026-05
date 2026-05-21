@@ -2,10 +2,12 @@
   "id": 2031321553,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
     "date:inception_lower": "2026-05-20",
     "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "edtf:cessation": "2026-05-20T22:40:00Z",
+    "edtf:inception": "2026-05-20T20:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.577286,
     "geom:longitude": -122.336266,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527671,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N57409",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147157592",
+      "swim:gufi": "KO7051644S"
+    },
     "wof:country": "US",
     "wof:created": 1779380244,
     "wof:geomhash": "02eb21027b428b31b3a49fca7e3fb60f",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031321553,
     "wof:involves": [
+      1947304453,
+      1528104577,
       102527671,
       102527513,
-      1159285413,
-      1947304453
+      1159285413
     ],
-    "wof:lastmodified": 1779380244,
+    "wof:lastmodified": 1779380369,
     "wof:name": "UA3750 (SFO-BFI)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

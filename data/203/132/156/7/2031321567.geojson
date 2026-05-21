@@ -2,10 +2,12 @@
   "id": 2031321567,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
     "date:inception_lower": "2026-05-20",
     "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "edtf:cessation": "2026-05-20T23:56:00Z",
+    "edtf:inception": "2026-05-20T05:20:39-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2250U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147150870",
+      "swim:gufi": "KO6546141F"
+    },
     "wof:country": "US",
     "wof:created": 1779380245,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -86,9 +100,10 @@
       102528817,
       102527513,
       1159285413,
-      1947304455
+      1947304455,
+      1159289993
     ],
-    "wof:lastmodified": 1779380245,
+    "wof:lastmodified": 1779380369,
     "wof:name": "UA3933 (SFO-IAD)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031321421,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
     "date:inception_lower": "2026-05-20",
     "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "edtf:cessation": "2026-05-20T18:26:00Z",
+    "edtf:inception": "2026-05-20T03:19:06-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.9389005,
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530507,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N883UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147140877",
+      "swim:gufi": "KO588644x5"
+    },
     "wof:country": "US",
     "wof:created": 1779380228,
     "wof:geomhash": "398b6cf59cf3bdf390f5834c7a336099",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031321421,
     "wof:involves": [
-      102530507,
       102527513,
       1159285413,
-      1947304617
+      1947304617,
+      1159289407,
+      102530507
     ],
-    "wof:lastmodified": 1779380228,
+    "wof:lastmodified": 1779380367,
     "wof:name": "UA2153 (SFO-RDM)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

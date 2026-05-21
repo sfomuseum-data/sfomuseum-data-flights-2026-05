@@ -2,10 +2,12 @@
   "id": 2031316853,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-20",
-    "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
+    "date:inception_lower": "2026-05-21",
+    "date:inception_upper": "2026-05-21",
+    "edtf:cessation": "2026-05-20T11:09:48-07:00",
+    "edtf:inception": "2026-05-21T00:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8685B",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL827904L3"
+    },
     "wof:country": "US",
     "wof:created": 1779379675,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031316853,
     "wof:involves": [
+      1947304597,
+      1159289871,
       102527513,
       102528997,
-      1159285591,
-      1947304597
+      1159285591
     ],
-    "wof:lastmodified": 1779379675,
+    "wof:lastmodified": 1779380378,
     "wof:name": "WN4114 (SAN-SFO)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",

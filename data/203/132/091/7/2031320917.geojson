@@ -2,10 +2,12 @@
   "id": 2031320917,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
     "date:inception_lower": "2026-05-20",
     "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "edtf:cessation": "2026-05-20T15:33:59Z",
+    "edtf:inception": "2026-05-20T14:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-05-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N912WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "147125959",
+      "swim:gufi": "KO4375148r"
+    },
     "wof:country": "US",
     "wof:created": 1779380167,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031320917,
     "wof:involves": [
+      1159289869,
       102533795,
       102527513,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1779380167,
+    "wof:lastmodified": 1779380363,
     "wof:name": "WN2632 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

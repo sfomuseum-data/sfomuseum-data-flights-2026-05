@@ -2,10 +2,12 @@
   "id": 2031318169,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-20",
-    "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "date:cessation_lower": "2026-05-20",
+    "date:cessation_upper": "2026-05-20",
+    "date:inception_lower": "2026-05-21",
+    "date:inception_upper": "2026-05-21",
+    "edtf:cessation": "2026-05-20T14:03:30-07:00",
+    "edtf:inception": "2026-05-21T01:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "WJA",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260520-A-AMX-7062",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFULJ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS0493853b"
+    },
     "wof:country": "US",
     "wof:created": 1779379836,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -92,9 +105,10 @@
       102554947,
       1159285523,
       1947304677,
-      1159283539
+      1159283539,
+      1528104575
     ],
-    "wof:lastmodified": 1779379836,
+    "wof:lastmodified": 1779380383,
     "wof:name": "WS1504 (YYC-SFO)",
     "wof:parent_id": 1947304677,
     "wof:placetype": "custom",

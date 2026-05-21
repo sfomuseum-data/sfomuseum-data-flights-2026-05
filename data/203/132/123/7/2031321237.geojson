@@ -2,10 +2,12 @@
   "id": 2031321237,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-21",
+    "date:cessation_upper": "2026-05-21",
     "date:inception_lower": "2026-05-20",
     "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "edtf:cessation": "2026-05-21T00:54:00Z",
+    "edtf:inception": "2026-05-20T19:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.2547305,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530841,
     "sfomuseum:base_flight_id": "20260520-D-ANZ-9449",
@@ -53,6 +57,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147152744"
+    },
     "wof:country": "US",
     "wof:created": 1779380206,
     "wof:geomhash": "2155b19e54308f477f2a379762b2f6c8",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 2031321237,
     "wof:involves": [
+      1528104577,
       102530841,
       102527513,
       1159285413,
       1947304483,
       1159283697
     ],
-    "wof:lastmodified": 1779380206,
+    "wof:lastmodified": 1779380365,
     "wof:name": "UA1328 (SFO-FLL)",
     "wof:parent_id": 1947304483,
     "wof:placetype": "custom",

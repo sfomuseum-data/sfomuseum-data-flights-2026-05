@@ -2,10 +2,12 @@
   "id": 2031315869,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-21",
+    "date:cessation_upper": "2026-05-21",
     "date:inception_lower": "2026-05-20",
     "date:inception_upper": "2026-05-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-20",
+    "edtf:cessation": "2026-05-21T05:45:35Z",
+    "edtf:inception": "2026-05-20T23:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CM",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.87722099999999,
     "iata:airline": "CM",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "CMP",
     "icao:base_airline": "UAL",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159284211,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260520-A-UAL-7116",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147170578"
+    },
     "wof:country": "US",
     "wof:created": 1779379554,
     "wof:geomhash": "a24fa29091ad40e8c2dcacd18340610c",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031315869,
     "wof:involves": [
+      1528104577,
       102527513,
       102547051,
       1159284211,
       1947304083,
       1159285413
     ],
-    "wof:lastmodified": 1779379554,
+    "wof:lastmodified": 1779380369,
     "wof:name": "CM382 (PTY-SFO)",
     "wof:parent_id": 1947304083,
     "wof:placetype": "custom",
