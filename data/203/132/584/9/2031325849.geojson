@@ -2,10 +2,12 @@
   "id": 2031325849,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-21",
+    "date:cessation_upper": "2026-05-21",
     "date:inception_lower": "2026-05-21",
     "date:inception_upper": "2026-05-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-21",
+    "edtf:cessation": "2026-05-21T23:14:00Z",
+    "edtf:inception": "2026-05-21T21:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260521-A-CMP-1132",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N25201",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147250590",
+      "swim:gufi": "KS733745i9"
+    },
     "wof:country": "US",
     "wof:created": 1779466145,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031325849,
     "wof:involves": [
+      1947304487,
+      1159284211,
+      1159289871,
       102527513,
       102533927,
-      1159285413,
-      1947304487,
-      1159284211
+      1159285413
     ],
-    "wof:lastmodified": 1779466145,
+    "wof:lastmodified": 1779466824,
     "wof:name": "UA2077 (EUG-SFO)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",

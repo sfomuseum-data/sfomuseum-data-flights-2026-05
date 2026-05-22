@@ -2,10 +2,12 @@
   "id": 2031325799,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-22",
+    "date:cessation_upper": "2026-05-22",
     "date:inception_lower": "2026-05-21",
     "date:inception_upper": "2026-05-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-21",
+    "edtf:cessation": "2026-05-22T04:23:00Z",
+    "edtf:inception": "2026-05-21T22:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B773",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1528104579,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260521-A-DLH-7886",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147255988"
+    },
     "wof:country": "US",
     "wof:created": 1779466139,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -92,9 +102,10 @@
       102530049,
       1159285413,
       1947304141,
-      1159286015
+      1159286015,
+      1528104579
     ],
-    "wof:lastmodified": 1779466139,
+    "wof:lastmodified": 1779466823,
     "wof:name": "UA1844 (EWR-SFO)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",
