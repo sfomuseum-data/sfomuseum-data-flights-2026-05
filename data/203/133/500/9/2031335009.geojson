@@ -1,0 +1,72 @@
+{
+  "id": 2031335009,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-05-22",
+    "date:inception_upper": "2026-05-22",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-05-22",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2026-05-22",
+    "flysfo:estimated_timestamp": 1779488100,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA5192",
+    "flysfo:gate": "",
+    "flysfo:journey": "STS-SFO",
+    "flysfo:scheduled_timestamp": 1779488100,
+    "flysfo:timestamp": 1779488100,
+    "geom:area": 0,
+    "geom:bbox": "-122.806017,37.617990,-122.370943,38.510830",
+    "geom:latitude": 38.064409999999995,
+    "geom:longitude": -122.58848,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102533507,
+    "sfomuseum:flight_id": "20260522-A-UAL-5192",
+    "sfomuseum:flight_number": [
+      "UAL5192",
+      "UA5192"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1779552570,
+    "wof:geomhash": "ba0ac8f0313e0faf8aa722fdd03f817a",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031335009,
+        "flight_id": 2031335009
+      }
+    ],
+    "wof:id": 2031335009,
+    "wof:involves": [
+      102527513,
+      102533507,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1779552570,
+    "wof:name": "UA5192 (STS-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.806017,
+    37.61799,
+    -122.370943,
+    38.51083
+  ],
+  "geometry": {"coordinates":[[-122.806017,38.51083],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
