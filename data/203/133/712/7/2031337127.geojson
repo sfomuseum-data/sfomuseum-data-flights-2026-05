@@ -2,10 +2,12 @@
   "id": 2031337127,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-22",
-    "date:inception_upper": "2026-05-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-22",
+    "date:cessation_lower": "2026-05-23",
+    "date:cessation_upper": "2026-05-23",
+    "date:inception_lower": "2026-05-23",
+    "date:inception_upper": "2026-05-23",
+    "edtf:cessation": "2026-05-23T11:04:00Z",
+    "edtf:inception": "2026-05-23T06:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "QFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260522-D-QFA-3656",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N468AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO168157Sg"
+    },
     "wof:country": "US",
     "wof:created": 1779552822,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -92,9 +105,10 @@
       102527513,
       1159283813,
       1947304275,
-      1159285043
+      1159285043,
+      1377564285
     ],
-    "wof:lastmodified": 1779552822,
+    "wof:lastmodified": 1779553211,
     "wof:name": "AS486 (SFO-JFK)",
     "wof:parent_id": 1947304275,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031339009,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-23",
+    "date:cessation_upper": "2026-05-23",
     "date:inception_lower": "2026-05-22",
     "date:inception_upper": "2026-05-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-22",
+    "edtf:cessation": "2026-05-23T00:48:00Z",
+    "edtf:inception": "2026-05-22T23:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260522-D-CCA-7318",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147358070"
+    },
     "wof:country": "US",
     "wof:created": 1779553043,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031339009,
     "wof:involves": [
+      1159289869,
       102533795,
       102527513,
       1159285413,
       1947304147,
       1159283605
     ],
-    "wof:lastmodified": 1779553043,
+    "wof:lastmodified": 1779553215,
     "wof:name": "UA1754 (SFO-LAX)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",
