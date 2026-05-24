@@ -2,10 +2,12 @@
   "id": 2031347791,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-23",
+    "date:cessation_upper": "2026-05-23",
     "date:inception_lower": "2026-05-23",
     "date:inception_upper": "2026-05-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-23",
+    "edtf:cessation": "2026-05-23T15:49:00Z",
+    "edtf:inception": "2026-05-23T14:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "A321",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "147460398"
+    },
     "wof:country": "US",
     "wof:created": 1779639430,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -46,12 +53,12 @@
     ],
     "wof:id": 2031347791,
     "wof:involves": [
-      102532251,
       102527513,
       1159285413,
-      -1
+      1159289411,
+      102532251
     ],
-    "wof:lastmodified": 1779639430,
+    "wof:lastmodified": 1779639565,
     "wof:name": "UA3904 (SFO-PDX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

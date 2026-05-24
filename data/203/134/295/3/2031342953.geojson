@@ -2,10 +2,12 @@
   "id": 2031342953,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-23",
+    "date:cessation_upper": "2026-05-23",
     "date:inception_lower": "2026-05-23",
     "date:inception_upper": "2026-05-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-23",
+    "edtf:cessation": "2026-05-23T21:26:49Z",
+    "edtf:inception": "2026-05-23T11:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SK",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -54.860681,
     "iata:airline": "SK",
     "iata:base_airline": "",
+    "icao:aircraft": "A359",
     "icao:airline": "SAS",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159285129,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260523-A-AFR-4345",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "SERSF",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147380644"
+    },
     "wof:country": "US",
     "wof:created": 1779638860,
     "wof:geomhash": "5ce04c0590c166d926aa7a8325b74dd4",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031342953,
     "wof:involves": [
+      1159283627,
+      1377564293,
       102527513,
       102544207,
       1159285129,
-      1947304093,
-      1159283627
+      1947304093
     ],
-    "wof:lastmodified": 1779638860,
+    "wof:lastmodified": 1779639539,
     "wof:name": "SK935 (CPH-SFO)",
     "wof:parent_id": 1947304093,
     "wof:placetype": "custom",

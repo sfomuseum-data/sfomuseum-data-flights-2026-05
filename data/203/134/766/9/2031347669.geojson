@@ -2,10 +2,12 @@
   "id": 2031347669,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-23",
-    "date:inception_upper": "2026-05-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-23",
+    "date:cessation_lower": "2026-05-24",
+    "date:cessation_upper": "2026-05-24",
+    "date:inception_lower": "2026-05-24",
+    "date:inception_upper": "2026-05-24",
+    "edtf:cessation": "2026-05-24T12:34:00Z",
+    "edtf:inception": "2026-05-24T06:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 23.805925,
     "geom:longitude": -103.289872,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102537555,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17358",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147376101",
+      "swim:gufi": "KO125291Af"
+    },
     "wof:country": "US",
     "wof:created": 1779639415,
     "wof:geomhash": "05151bbebc72a691ecf3d87519f35adc",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031347669,
     "wof:involves": [
+      1947304153,
+      1528104575,
       102537555,
       102527513,
-      1159285413,
-      1947304153
+      1159285413
     ],
-    "wof:lastmodified": 1779639415,
+    "wof:lastmodified": 1779639555,
     "wof:name": "UA2312 (SFO-SJO)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

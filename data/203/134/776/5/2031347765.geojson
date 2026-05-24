@@ -2,10 +2,12 @@
   "id": 2031347765,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-24",
+    "date:cessation_upper": "2026-05-24",
     "date:inception_lower": "2026-05-23",
     "date:inception_upper": "2026-05-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-23",
+    "edtf:cessation": "2026-05-24T05:25:00Z",
+    "edtf:inception": "2026-05-23T14:38:29-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:base_flight_id": "20260523-D-ACA-4366",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N495UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147374002",
+      "swim:gufi": "KO1284719u"
+    },
     "wof:country": "US",
     "wof:created": 1779639426,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304607,
-      1159283597
+      1159283597,
+      1159292085
     ],
-    "wof:lastmodified": 1779639426,
+    "wof:lastmodified": 1779639556,
     "wof:name": "UA2866 (SFO-SBA)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",

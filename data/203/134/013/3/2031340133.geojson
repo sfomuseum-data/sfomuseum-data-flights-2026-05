@@ -2,10 +2,12 @@
   "id": 2031340133,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-23",
+    "date:cessation_upper": "2026-05-23",
     "date:inception_lower": "2026-05-23",
     "date:inception_upper": "2026-05-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-23",
+    "edtf:cessation": "2026-05-23T07:28:39Z",
+    "edtf:inception": "2026-05-23T02:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147367488"
+    },
     "wof:country": "US",
     "wof:created": 1779638503,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -94,7 +99,7 @@
       1947304271,
       1159284021
     ],
-    "wof:lastmodified": 1779638503,
+    "wof:lastmodified": 1779639533,
     "wof:name": "AA1771 (PHL-SFO)",
     "wof:parent_id": 1947304271,
     "wof:placetype": "custom",
