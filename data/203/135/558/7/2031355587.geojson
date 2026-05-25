@@ -2,10 +2,12 @@
   "id": 2031355587,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-25",
+    "date:cessation_upper": "2026-05-25",
     "date:inception_lower": "2026-05-24",
     "date:inception_upper": "2026-05-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-24",
+    "edtf:cessation": "2026-05-25T03:20:52Z",
+    "edtf:inception": "2026-05-24T12:14:51-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-05-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N252WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO005012tt"
+    },
     "wof:country": "US",
     "wof:created": 1779725761,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031355587,
     "wof:involves": [
+      1159289869,
       102528997,
       102527513,
       1159285591,
       1947304597
     ],
-    "wof:lastmodified": 1779725761,
+    "wof:lastmodified": 1779725963,
     "wof:name": "WN193 (SFO-SAN)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",

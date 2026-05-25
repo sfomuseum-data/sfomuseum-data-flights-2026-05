@@ -2,10 +2,12 @@
   "id": 2031352819,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-24",
+    "date:cessation_upper": "2026-05-24",
     "date:inception_lower": "2026-05-24",
     "date:inception_upper": "2026-05-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-24",
+    "edtf:cessation": "2026-05-24T05:52:01-07:00",
+    "edtf:inception": "2026-05-24T17:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "WJA",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260524-A-AMX-7061",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFNWD",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147478671",
+      "swim:gufi": "KS593231LK"
+    },
     "wof:country": "US",
     "wof:created": 1779725438,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -92,9 +106,10 @@
       102554947,
       1159285523,
       1947304667,
-      1159283539
+      1159283539,
+      1528104575
     ],
-    "wof:lastmodified": 1779725438,
+    "wof:lastmodified": 1779725958,
     "wof:name": "WS1500 (YYC-SFO)",
     "wof:parent_id": 1947304667,
     "wof:placetype": "custom",

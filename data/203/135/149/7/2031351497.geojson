@@ -2,10 +2,12 @@
   "id": 2031351497,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-24",
+    "date:cessation_upper": "2026-05-24",
     "date:inception_lower": "2026-05-24",
     "date:inception_upper": "2026-05-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-24",
+    "edtf:cessation": "2026-05-24T04:15:40-07:00",
+    "edtf:inception": "2026-05-24T14:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-05-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N7887A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147468851",
+      "swim:gufi": "KM426991jL"
+    },
     "wof:country": "US",
     "wof:created": 1779725281,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031351497,
     "wof:involves": [
+      1159289869,
       102527513,
       102525035,
       1159285591,
       1947304601
     ],
-    "wof:lastmodified": 1779725281,
+    "wof:lastmodified": 1779725968,
     "wof:name": "WN1689 (BNA-SFO)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",
