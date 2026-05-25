@@ -1,0 +1,72 @@
+{
+  "id": 2031354671,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-05-24",
+    "date:inception_upper": "2026-05-24",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-05-24",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2026-05-24",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL8838",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-MKC",
+    "flysfo:scheduled_timestamp": 1779638700,
+    "flysfo:timestamp": 1779638700,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-94.592796,39.123199",
+    "geom:latitude": 38.370594499999996,
+    "geom:longitude": -108.4818695,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102532927,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260524-D-DAL-8838",
+    "sfomuseum:flight_number": [
+      "DAL8838",
+      "DL8838"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1779725654,
+    "wof:geomhash": "1b45249f92268208f6946c5dc4b963b1",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031354671,
+        "flight_id": 2031354671
+      }
+    ],
+    "wof:id": 2031354671,
+    "wof:involves": [
+      102532927,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1779725654,
+    "wof:name": "DL8838 (SFO-MKC)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -94.592796,
+    39.123199
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-94.592796,39.123199]],"type":"MultiPoint"}
+}
