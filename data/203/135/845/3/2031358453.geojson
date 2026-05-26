@@ -1,0 +1,72 @@
+{
+  "id": 2031358453,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-05-25",
+    "date:inception_upper": "2026-05-25",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-05-25",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2026-05-25",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AS9797",
+    "flysfo:gate": "",
+    "flysfo:journey": "FAT-SFO",
+    "flysfo:scheduled_timestamp": 1779733800,
+    "flysfo:timestamp": 1779733800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,36.768728,-119.721272,37.617990",
+    "geom:latitude": 37.193359,
+    "geom:longitude": -121.0461075,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102530717,
+    "sfomuseum:flight_id": "20260525-A-ASA-9797",
+    "sfomuseum:flight_number": [
+      "ASA9797",
+      "AS9797"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1779811519,
+    "wof:geomhash": "b157be63e9453882f41d2e530854b6a2",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031358453,
+        "flight_id": 2031358453
+      }
+    ],
+    "wof:id": 2031358453,
+    "wof:involves": [
+      102527513,
+      102530717,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1779811519,
+    "wof:name": "AS9797 (FAT-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    36.768728,
+    -119.721272,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-119.721272,36.768728],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
