@@ -2,10 +2,12 @@
   "id": 2031364817,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-26",
+    "date:cessation_upper": "2026-05-26",
     "date:inception_lower": "2026-05-25",
     "date:inception_upper": "2026-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-25",
+    "edtf:cessation": "2026-05-26T00:55:00Z",
+    "edtf:inception": "2026-05-25T20:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:base_flight_id": "20260525-D-DLH-7489",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27901",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147559949",
+      "swim:gufi": "KO677142bm"
+    },
     "wof:country": "US",
     "wof:created": 1779812283,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031364817,
     "wof:involves": [
+      1159286015,
+      1159289995,
       102528817,
       102527513,
       1159285413,
-      1947304455,
-      1159286015
+      1947304455
     ],
-    "wof:lastmodified": 1779812283,
+    "wof:lastmodified": 1779812441,
     "wof:name": "UA2274 (SFO-IAD)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

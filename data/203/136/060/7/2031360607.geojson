@@ -2,10 +2,12 @@
   "id": 2031360607,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-25",
+    "date:cessation_upper": "2026-05-25",
     "date:inception_lower": "2026-05-25",
     "date:inception_upper": "2026-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-25",
+    "edtf:cessation": "2026-05-25T02:43:08-07:00",
+    "edtf:inception": "2026-05-25T14:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260525-A-ANA-7327",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N488UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147536052",
+      "swim:gufi": "KS478952Sh"
+    },
     "wof:country": "US",
     "wof:created": 1779811781,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031360607,
     "wof:involves": [
-      102527513,
       102533269,
       1159285413,
       1947304525,
-      1159283875
+      1159283875,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1779811781,
+    "wof:lastmodified": 1779812420,
     "wof:name": "UA2842 (SEA-SFO)",
     "wof:parent_id": 1947304525,
     "wof:placetype": "custom",

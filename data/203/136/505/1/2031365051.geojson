@@ -2,10 +2,12 @@
   "id": 2031365051,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-25",
-    "date:inception_upper": "2026-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-25",
+    "date:cessation_lower": "2026-05-26",
+    "date:cessation_upper": "2026-05-26",
+    "date:inception_lower": "2026-05-26",
+    "date:inception_upper": "2026-05-26",
+    "edtf:cessation": "2026-05-26T05:56:15Z",
+    "edtf:inception": "2026-05-26T05:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.6226995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527187,
     "sfomuseum:base_flight_id": "20260525-D-ANZ-9527",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17414",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO128653CB"
+    },
     "wof:country": "US",
     "wof:created": 1779812310,
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031365051,
     "wof:involves": [
+      1528104577,
       102527187,
       102527513,
       1159285413,
       1947304531,
       1159283697
     ],
-    "wof:lastmodified": 1779812310,
+    "wof:lastmodified": 1779812442,
     "wof:name": "UA548 (SFO-MFR)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

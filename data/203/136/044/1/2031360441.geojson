@@ -2,10 +2,12 @@
   "id": 2031360441,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-25",
+    "date:cessation_upper": "2026-05-25",
     "date:inception_lower": "2026-05-25",
     "date:inception_upper": "2026-05-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-25",
+    "edtf:cessation": "2026-05-25T02:01:55-07:00",
+    "edtf:inception": "2026-05-25T10:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "VOZ",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260525-A-VOZ-8181",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N47360",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147524786",
+      "swim:gufi": "KR355752W6"
+    },
     "wof:country": "US",
     "wof:created": 1779811760,
     "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031360441,
     "wof:involves": [
+      1159285485,
+      1528104575,
       102527513,
       102533243,
       1159285413,
-      1947304531,
-      1159285485
+      1947304531
     ],
-    "wof:lastmodified": 1779811760,
+    "wof:lastmodified": 1779812418,
     "wof:name": "UA2051 (TPA-SFO)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",
