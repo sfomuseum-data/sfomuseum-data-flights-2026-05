@@ -2,10 +2,12 @@
   "id": 2031367765,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-26",
+    "date:cessation_upper": "2026-05-26",
     "date:inception_lower": "2026-05-26",
     "date:inception_upper": "2026-05-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-26",
+    "edtf:cessation": "2026-05-26T08:20:06-07:00",
+    "edtf:inception": "2026-05-26T18:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-05-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534155,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N655DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "147625473",
+      "swim:gufi": "KI61861330"
+    },
     "wof:country": "US",
     "wof:created": 1779897988,
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031367765,
     "wof:involves": [
-      102527513,
-      102534155,
       1159284261,
-      -1
+      1159289939,
+      102527513,
+      102534155
     ],
-    "wof:lastmodified": 1779897988,
+    "wof:lastmodified": 1779898782,
     "wof:name": "DL8962 (IND-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
