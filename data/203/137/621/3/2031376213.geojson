@@ -2,10 +2,12 @@
   "id": 2031376213,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-27",
+    "date:cessation_upper": "2026-05-27",
     "date:inception_lower": "2026-05-27",
     "date:inception_upper": "2026-05-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-27",
+    "edtf:cessation": "2026-05-27T07:26:10-07:00",
+    "edtf:inception": "2026-05-27T20:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-05-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N650DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "147715417",
+      "swim:gufi": "KS669614Mx"
+    },
     "wof:country": "US",
     "wof:created": 1779984421,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031376213,
     "wof:involves": [
-      102527513,
       102532251,
       1159284261,
-      -1
+      1159289939,
+      102527513
     ],
-    "wof:lastmodified": 1779984421,
+    "wof:lastmodified": 1779985251,
     "wof:name": "DL8845 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

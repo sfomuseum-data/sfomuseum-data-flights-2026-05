@@ -2,10 +2,12 @@
   "id": 2031375545,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-27",
-    "date:inception_upper": "2026-05-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-27",
+    "date:cessation_lower": "2026-05-28",
+    "date:cessation_upper": "2026-05-28",
+    "date:inception_lower": "2026-05-28",
+    "date:inception_upper": "2026-05-28",
+    "edtf:cessation": "2026-05-27T17:00:20-07:00",
+    "edtf:inception": "2026-05-28T01:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-05-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.799764500000002,
     "geom:longitude": -140.859366,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528943,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N560AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO195765f4"
+    },
     "wof:country": "US",
     "wof:created": 1779984339,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -86,9 +99,10 @@
       102527513,
       102528943,
       1159283813,
-      1947304385
+      1947304385,
+      1159289871
     ],
-    "wof:lastmodified": 1779984339,
+    "wof:lastmodified": 1779985246,
     "wof:name": "AS518 (LIH-SFO)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",

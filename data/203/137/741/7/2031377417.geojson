@@ -2,10 +2,12 @@
   "id": 2031377417,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-27",
+    "date:cessation_upper": "2026-05-27",
     "date:inception_lower": "2026-05-27",
     "date:inception_upper": "2026-05-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-27",
+    "edtf:cessation": "2026-05-27T04:33:37-07:00",
+    "edtf:inception": "2026-05-27T13:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8087165,
     "geom:longitude": -102.62808,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532255,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N493UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147673292",
+      "swim:gufi": "KI370054kK"
+    },
     "wof:country": "US",
     "wof:created": 1779984574,
     "wof:geomhash": "980d68d8d28509c0742a6b2a7abf5f67",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031377417,
     "wof:involves": [
+      1947304601,
+      1159292085,
       102527513,
       102532255,
-      1159285413,
-      1947304601
+      1159285413
     ],
-    "wof:lastmodified": 1779984574,
+    "wof:lastmodified": 1779985260,
     "wof:name": "UA1597 (CMH-SFO)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",
