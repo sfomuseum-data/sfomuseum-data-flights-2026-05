@@ -2,10 +2,12 @@
   "id": 2031384889,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-28",
+    "date:cessation_upper": "2026-05-28",
     "date:inception_lower": "2026-05-28",
     "date:inception_upper": "2026-05-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-28",
+    "edtf:cessation": "2026-05-28T09:02:00Z",
+    "edtf:inception": "2026-05-28T08:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-05-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N662DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "147752101",
+      "swim:gufi": "KO264615QP"
+    },
     "wof:country": "US",
     "wof:created": 1780070801,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031384889,
     "wof:involves": [
+      1159289939,
       102527513,
       102532251,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1780070801,
+    "wof:lastmodified": 1780071673,
     "wof:name": "DL8838 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

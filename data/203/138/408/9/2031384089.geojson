@@ -2,10 +2,12 @@
   "id": 2031384089,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-28",
-    "date:inception_upper": "2026-05-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-28",
+    "date:cessation_lower": "2026-05-29",
+    "date:cessation_upper": "2026-05-29",
+    "date:inception_lower": "2026-05-29",
+    "date:inception_upper": "2026-05-29",
+    "edtf:cessation": "2026-05-29T06:22:46Z",
+    "edtf:inception": "2026-05-29T05:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260528-A-FIN-2512",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N529AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL138736VK"
+    },
     "wof:country": "US",
     "wof:created": 1780070702,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031384089,
     "wof:involves": [
+      1159289871,
       102527513,
       102533795,
       1159283813,
       1947304275,
       1159284389
     ],
-    "wof:lastmodified": 1780070702,
+    "wof:lastmodified": 1780071669,
     "wof:name": "AS1328 (LAX-SFO)",
     "wof:parent_id": 1947304275,
     "wof:placetype": "custom",

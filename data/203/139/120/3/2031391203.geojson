@@ -2,10 +2,12 @@
   "id": 2031391203,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-29",
+    "date:cessation_upper": "2026-05-29",
     "date:inception_lower": "2026-05-28",
     "date:inception_upper": "2026-05-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-28",
+    "edtf:cessation": "2026-05-29T05:48:34Z",
+    "edtf:inception": "2026-05-28T10:54:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17425",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "147748846",
+      "swim:gufi": "KO852635VW"
+    },
     "wof:country": "US",
     "wof:created": 1780071581,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031391203,
     "wof:involves": [
-      102529403,
-      102527513,
       1159285413,
-      -1
+      1528104577,
+      102529403,
+      102527513
     ],
-    "wof:lastmodified": 1780071581,
+    "wof:lastmodified": 1780071669,
     "wof:name": "UA8284 (SFO-PHL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

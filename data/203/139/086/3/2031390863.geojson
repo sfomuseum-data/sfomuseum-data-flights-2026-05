@@ -2,10 +2,12 @@
   "id": 2031390863,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-28",
+    "date:cessation_upper": "2026-05-28",
     "date:inception_lower": "2026-05-28",
     "date:inception_upper": "2026-05-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-28",
+    "edtf:cessation": "2026-05-28T23:04:00Z",
+    "edtf:inception": "2026-05-28T18:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:base_flight_id": "20260528-D-ANZ-9167",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147790302"
+    },
     "wof:country": "US",
     "wof:created": 1780071538,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031390863,
     "wof:involves": [
+      1159289939,
       102528817,
       102527513,
       1159285413,
       1947304473,
       1159283697
     ],
-    "wof:lastmodified": 1780071538,
+    "wof:lastmodified": 1780071667,
     "wof:name": "UA336 (SFO-IAD)",
     "wof:parent_id": 1947304473,
     "wof:placetype": "custom",

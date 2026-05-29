@@ -2,10 +2,12 @@
   "id": 2031387347,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-28",
+    "date:cessation_upper": "2026-05-28",
     "date:inception_lower": "2026-05-28",
     "date:inception_upper": "2026-05-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-28",
+    "edtf:cessation": "2026-05-28T17:51:00Z",
+    "edtf:inception": "2026-05-28T13:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20260528-D-BAW-5769",
@@ -39,7 +43,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N905NN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "147764532",
+      "swim:gufi": "KO4236159I"
+    },
     "wof:country": "US",
     "wof:created": 1780071108,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -51,13 +65,13 @@
     ],
     "wof:id": 2031387347,
     "wof:involves": [
-      102533631,
       102527513,
       1159283849,
-      -1,
-      1159284021
+      1159284021,
+      1159289871,
+      102533631
     ],
-    "wof:lastmodified": 1780071108,
+    "wof:lastmodified": 1780071678,
     "wof:name": "AA2614 (SFO-ORD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

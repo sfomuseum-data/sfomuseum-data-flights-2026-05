@@ -2,10 +2,12 @@
   "id": 2031386817,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-28",
+    "date:cessation_upper": "2026-05-28",
     "date:inception_lower": "2026-05-28",
     "date:inception_upper": "2026-05-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-28",
+    "edtf:cessation": "2026-05-28T23:44:03Z",
+    "edtf:inception": "2026-05-28T13:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -58.794018,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260528-A-ACA-3724",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147763646"
+    },
     "wof:country": "US",
     "wof:created": 1780071042,
     "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
@@ -92,9 +103,10 @@
       102542801,
       1159285413,
       1947304153,
-      1159283597
+      1159283597,
+      1159289985
     ],
-    "wof:lastmodified": 1780071042,
+    "wof:lastmodified": 1780071677,
     "wof:name": "UA969 (AMS-SFO)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",
