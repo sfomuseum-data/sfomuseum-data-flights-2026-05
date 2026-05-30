@@ -2,10 +2,12 @@
   "id": 2031398119,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-29",
-    "date:inception_upper": "2026-05-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-29",
+    "date:cessation_lower": "2026-05-30",
+    "date:cessation_upper": "2026-05-30",
+    "date:inception_lower": "2026-05-30",
+    "date:inception_upper": "2026-05-30",
+    "edtf:cessation": "2026-05-30T05:54:18Z",
+    "edtf:inception": "2026-05-30T00:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "VIR",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260529-D-VIR-3215",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N718TW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147911773"
+    },
     "wof:country": "US",
     "wof:created": 1780157713,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031398119,
     "wof:involves": [
-      102534365,
-      102527513,
       1159284261,
       1947304671,
-      1159285483
+      1159285483,
+      1159289939,
+      102534365,
+      102527513
     ],
-    "wof:lastmodified": 1780157713,
+    "wof:lastmodified": 1780158082,
     "wof:name": "DL363 (SFO-JFK)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",
