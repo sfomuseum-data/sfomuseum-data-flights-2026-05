@@ -2,10 +2,12 @@
   "id": 2031404015,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-30",
+    "date:cessation_upper": "2026-05-30",
     "date:inception_lower": "2026-05-30",
     "date:inception_upper": "2026-05-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-30",
+    "edtf:cessation": "2026-05-30T16:33:00Z",
+    "edtf:inception": "2026-05-30T11:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260530-A-ANA-7007",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2332U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147935967",
+      "swim:gufi": "KN373127je"
+    },
     "wof:country": "US",
     "wof:created": 1780243784,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031404015,
     "wof:involves": [
+      1947304147,
+      1159283875,
+      1159289993,
       102527513,
       102530049,
-      1159285413,
-      1947304147,
-      1159283875
+      1159285413
     ],
-    "wof:lastmodified": 1780243784,
+    "wof:lastmodified": 1780244467,
     "wof:name": "UA1960 (EWR-SFO)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",

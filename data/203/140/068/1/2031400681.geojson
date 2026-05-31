@@ -2,10 +2,12 @@
   "id": 2031400681,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-30",
-    "date:inception_upper": "2026-05-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-30",
+    "date:cessation_lower": "2026-05-30",
+    "date:cessation_upper": "2026-05-30",
+    "date:inception_lower": "2026-05-31",
+    "date:inception_upper": "2026-05-31",
+    "edtf:cessation": "2026-05-30T14:03:08-07:00",
+    "edtf:inception": "2026-05-31T00:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260530-A-BAW-2493",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N142AN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147916825",
+      "swim:gufi": "KF826617CJ"
+    },
     "wof:country": "US",
     "wof:created": 1780243333,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031400681,
     "wof:involves": [
+      1159284021,
+      1159289411,
       102527513,
       102528541,
       1159283849,
-      1947304309,
-      1159284021
+      1947304309
     ],
-    "wof:lastmodified": 1780243333,
+    "wof:lastmodified": 1780244452,
     "wof:name": "AA1430 (DFW-SFO)",
     "wof:parent_id": 1947304309,
     "wof:placetype": "custom",

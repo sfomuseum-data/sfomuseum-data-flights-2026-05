@@ -2,10 +2,12 @@
   "id": 2031403835,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-30",
-    "date:inception_upper": "2026-05-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-30",
+    "date:cessation_lower": "2026-05-30",
+    "date:cessation_upper": "2026-05-30",
+    "date:inception_lower": "2026-05-31",
+    "date:inception_upper": "2026-05-31",
+    "edtf:cessation": "2026-05-30T14:15:43-07:00",
+    "edtf:inception": "2026-05-31T02:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260530-A-ACA-4369",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17341",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "147925157",
+      "swim:gufi": "KA060611OJ"
+    },
     "wof:country": "US",
     "wof:created": 1780243763,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031403835,
     "wof:involves": [
+      1930457221,
+      1159283597,
+      1528104575,
       102527513,
       102526751,
-      1159285413,
-      1930457221,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1780243763,
+    "wof:lastmodified": 1780244466,
     "wof:name": "UA1141 (PHX-SFO)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",
