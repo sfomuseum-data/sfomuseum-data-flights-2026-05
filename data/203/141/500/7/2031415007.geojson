@@ -2,10 +2,12 @@
   "id": 2031415007,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-05-31",
-    "date:inception_upper": "2026-05-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-31",
+    "date:cessation_lower": "2026-05-31",
+    "date:cessation_upper": "2026-05-31",
+    "date:inception_lower": "2026-06-01",
+    "date:inception_upper": "2026-06-01",
+    "edtf:cessation": "2026-05-31T14:35:00Z",
+    "edtf:inception": "2026-05-31T23:27:24-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20260531-D-AAL-9340",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N706AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148026918",
+      "swim:gufi": "KO4411413Q"
+    },
     "wof:country": "US",
     "wof:created": 1780330423,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -92,9 +106,10 @@
       102527513,
       1159283813,
       1947304303,
-      1159283849
+      1159283849,
+      1528104577
     ],
-    "wof:lastmodified": 1780330423,
+    "wof:lastmodified": 1780330871,
     "wof:name": "AS1407 (SFO-SAN)",
     "wof:parent_id": 1947304303,
     "wof:placetype": "custom",

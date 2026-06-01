@@ -2,10 +2,12 @@
   "id": 2031417301,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-31",
+    "date:cessation_upper": "2026-05-31",
     "date:inception_lower": "2026-05-31",
     "date:inception_upper": "2026-05-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-31",
+    "edtf:cessation": "2026-05-31T20:08:00Z",
+    "edtf:inception": "2026-05-31T02:34:49-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531205,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N75436",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148039671",
+      "swim:gufi": "KO5557510R"
+    },
     "wof:country": "US",
     "wof:created": 1780330682,
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
@@ -86,9 +100,10 @@
       102531205,
       102527513,
       1159285413,
-      1947304453
+      1947304453,
+      1377564285
     ],
-    "wof:lastmodified": 1780330682,
+    "wof:lastmodified": 1780330886,
     "wof:name": "UA3760 (SFO-MDW)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

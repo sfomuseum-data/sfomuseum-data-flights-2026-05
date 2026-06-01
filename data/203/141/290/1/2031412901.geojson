@@ -2,10 +2,12 @@
   "id": 2031412901,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-31",
+    "date:cessation_upper": "2026-05-31",
     "date:inception_lower": "2026-05-31",
     "date:inception_upper": "2026-05-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-31",
+    "edtf:cessation": "2026-05-31T08:33:30-07:00",
+    "edtf:inception": "2026-05-31T20:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260531-A-ACA-4031",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N78509",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148058585",
+      "swim:gufi": "KA684701uR"
+    },
     "wof:country": "US",
     "wof:created": 1780330182,
     "wof:geomhash": "8fe6791c85dc44fbddffd72416ea0024",
@@ -92,9 +106,10 @@
       102529173,
       1159285413,
       1947304523,
-      1159283597
+      1159283597,
+      1159289871
     ],
-    "wof:lastmodified": 1780330182,
+    "wof:lastmodified": 1780330881,
     "wof:name": "UA345 (ABQ-SFO)",
     "wof:parent_id": 1947304523,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031412925,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-31",
+    "date:cessation_upper": "2026-05-31",
     "date:inception_lower": "2026-05-31",
     "date:inception_upper": "2026-05-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-31",
+    "edtf:cessation": "2026-05-31T04:21:48-07:00",
+    "edtf:inception": "2026-05-31T13:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-05-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528817,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2737U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148092489",
+      "swim:gufi": "KW443941z3"
+    },
     "wof:country": "US",
     "wof:created": 1780330185,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031412925,
     "wof:involves": [
+      1159289993,
       102527513,
       102528817,
       1159285413,
       1947304141
     ],
-    "wof:lastmodified": 1780330185,
+    "wof:lastmodified": 1780330865,
     "wof:name": "UA3906 (IAD-SFO)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",

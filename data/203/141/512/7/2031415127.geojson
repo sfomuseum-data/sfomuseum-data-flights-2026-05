@@ -2,10 +2,12 @@
   "id": 2031415127,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-05-31",
+    "date:cessation_upper": "2026-05-31",
     "date:inception_lower": "2026-05-31",
     "date:inception_upper": "2026-05-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-05-31",
+    "edtf:cessation": "2026-05-31T16:13:00Z",
+    "edtf:inception": "2026-05-31T00:15:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-05-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.195808,
     "geom:longitude": -113.5304005,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102526247,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N943AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148029438",
+      "swim:gufi": "KO466401C4"
+    },
     "wof:country": "US",
     "wof:created": 1780330438,
     "wof:geomhash": "8aed97a089883cbe179a22c2076f7bb1",
@@ -86,9 +100,10 @@
       102526247,
       102527513,
       1159283813,
-      1947304313
+      1947304313,
+      1528104577
     ],
-    "wof:lastmodified": 1780330438,
+    "wof:lastmodified": 1780330883,
     "wof:name": "AS9728 (SFO-COS)",
     "wof:parent_id": 1947304313,
     "wof:placetype": "custom",
