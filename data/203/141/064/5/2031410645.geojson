@@ -1,0 +1,72 @@
+{
+  "id": 2031410645,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-05-31",
+    "date:inception_upper": "2026-05-31",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-05-31",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2026-05-31",
+    "flysfo:estimated_timestamp": 1780263360,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AS9729",
+    "flysfo:gate": "",
+    "flysfo:journey": "RIV-SFO",
+    "flysfo:scheduled_timestamp": 1780263240,
+    "flysfo:timestamp": 1780263360,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,33.896471,-117.254857,37.617990",
+    "geom:latitude": 35.7572305,
+    "geom:longitude": -119.8129,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102533771,
+    "sfomuseum:flight_id": "20260531-A-ASA-9729",
+    "sfomuseum:flight_number": [
+      "ASA9729",
+      "AS9729"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1780329918,
+    "wof:geomhash": "c888892536f476de40ea9a710a0261ab",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031410645,
+        "flight_id": 2031410645
+      }
+    ],
+    "wof:id": 2031410645,
+    "wof:involves": [
+      102527513,
+      102533771,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1780329918,
+    "wof:name": "AS9729 (RIV-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-05",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    33.896471,
+    -117.254857,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-117.254857,33.896471],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
